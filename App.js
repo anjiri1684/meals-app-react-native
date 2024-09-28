@@ -41,8 +41,8 @@ function App() {
             //   };
             // }}
           />
+          <Stack.Screen name="MealDetail" component={MealsDetailScreen} />
         </Stack.Navigator>
-        <Stack.Screen name="MealDetails" component={MealsDetailScreen} />
       </NavigationContainer>
     </>
   );
